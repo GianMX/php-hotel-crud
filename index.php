@@ -25,7 +25,7 @@
             <td> <?php echo $room['id']; ?> </td>
             <td> <?php echo $room["room_number"]; ?> </td>
             <td> <?php echo $room["floor"]; ?> </td>
-            <td> <a href="http://localhost:8888/esercizio-boolean-hotel/room_details.php?id=<?php echo $room['id'];?>">View room details</a> </td>
+            <td> <a href="http://localhost:8888/php-hotel-crud/room_details.php?id=<?php echo $room['id'];?>">View room details</a> </td>
           </tr>
         <?php }; ?>
         </tbody>

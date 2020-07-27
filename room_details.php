@@ -22,14 +22,12 @@ $results = $conn->query($sql);
 
     $room_detail = [];
 
-    // Put single row (that rappresents single room) in array ($rooms)
     while($row = $results->fetch_assoc()) {
       $room_detail[] = $row;
     }
 
   } elseif ($results) {
 
-    // 0 results
     $room_detail = [];
 
     } else {
@@ -59,7 +57,7 @@ $conn->close();
             <li>Letti: <?php echo $key['beds']; ?> </li>
           <?php } ?>
         </ul>
-        <a href="http://localhost:8888/esercizio-boolean-hotel">torna indietro</a>
+        <a href="http://localhost:8888/php-hotel-crud">torna indietro</a>
       </main>
   </body>
 </html>
