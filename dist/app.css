@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  line-height: 50px;
+  background-color: lightblue;
+  color: white;
+  padding: 0 20px;
+}
+
+main {
+  border: 1px solid #ccc;
+  min-height: 90vh;
+  padding: 20px;
+}
+
+main a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: lightblue;
+  color: #fff;
+}
+
+main a.delete {
+  background-color: #ff6161;
+}
+
+main label {
+  min-width: 150px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+main table {
+  border-spacing: 5px;
+  text-align: left;
+}
+
+main table thead {
+  background-color: blue;
+}
+
+main table thead th {
+  color: #fff;
+  padding: 5px 10px;
+}
+
+main table tr td {
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 10px;
+}
